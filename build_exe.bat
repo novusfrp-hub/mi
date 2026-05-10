@@ -30,7 +30,7 @@ if exist "MC-BLOATWARE-TOOL.spec" del /q MC-BLOATWARE-TOOL.spec
 echo.
 
 echo [3/3] Creando ejecutable con PyInstaller...
-pyinstaller --onedir --windowed --name "MC-BLOATWARE-TOOL" ^
+python -m PyInstaller --onedir --windowed --name "MC-BLOATWARE-TOOL" ^
     --icon=icono.ico ^
     --add-data "adb.exe;." ^
     --add-data "AdbWinApi.dll;." ^

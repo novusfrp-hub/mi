@@ -1,16 +1,41 @@
 ```
-# Compiled Python files
-__pycache__/
-*.pyc
+# Executables and binaries
+*.exe
+*.bat
+*.cmd
+*.com
+*.dll
+*.so
+*.dylib
+*.o
+*.obj
+*.out
 
 # Build artifacts
 build/
+dist/
+bin/
+target/
 
-# Logs and temp files
+# Dependencies
+node_modules/
+venv/
+.venv/
+.env
+.env.local
+*.env.*
+
+# Logs
 *.log
-*.tmp
 
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
 ```
