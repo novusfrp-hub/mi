@@ -1,11 +1,62 @@
 import os
 import sys
+import subprocess
 from datetime import datetime
 from PyQt5.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
                             QPushButton, QFrame, QLabel, QSizePolicy, QStatusBar,
                             QFileDialog, QListWidget, QListWidgetItem, QMessageBox)
 from PyQt5.QtCore import QTimer, Qt, QThread, pyqtSignal, QSize
 from PyQt5.QtGui import QCursor, QFont, QPixmap, QPainter, QIcon
+
+def get_adb_path():
+    """Obtiene la ruta absoluta al ejecutable de adb en la misma carpeta que el programa"""
+    if getattr(sys, 'frozen', False):
+        # Si está congelado (ejecutable)
+        base_path = sys.executable
+    else:
+        # Si está en desarrollo
+        base_path = __file__
+    
+    dir_path = os.path.dirname(base_path)
+    adb_path = os.path.join(dir_path, 'adb.exe')
+    
+    # Si no existe adb.exe, intentar con 'adb' (para Linux/Mac)
+    if not os.path.exists(adb_path):
+        adb_path = os.path.join(dir_path, 'adb')
+    
+    if not os.path.exists(adb_path):
+        # Fallback a adb en PATH si no se encuentra localmente
+        return 'adb'
+    
+    return adb_path
+
+ADB_BINARY = get_adb_path()
+
+def run_adb_command(command_args):
+    """Ejecuta un comando ADB usando el binario localizado"""
+    cmd = [ADB_BINARY] + command_args
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True, timeout=30)
+        return result.stdout
+    except subprocess.TimeoutExpired:
+        print(f"Timeout ejecutando comando ADB: {' '.join(cmd)}")
+        return ""
+    except Exception as e:
+        print(f"Error ejecutando comando ADB: {str(e)}")
+        return ""
+
+def run_adb_shell(command):
+    """Ejecuta un comando shell de ADB usando el binario localizado"""
+    cmd = f'"{ADB_BINARY}" {command}'
+    try:
+        result = subprocess.run(cmd, shell=True, capture_output=True, text=True, timeout=30)
+        return result.stdout
+    except subprocess.TimeoutExpired:
+        print(f"Timeout ejecutando comando ADB shell: {cmd}")
+        return ""
+    except Exception as e:
+        print(f"Error ejecutando comando ADB shell: {str(e)}")
+        return ""
 
 class AppCard(QWidget):
     def __init__(self, package_name, parent=None):
@@ -131,12 +182,12 @@ class AppCard(QWidget):
             print(f"Error guardando en malware list: {str(e)}")
     
     def stop_app(self):
-        os.system(f'adb shell am force-stop {self.package_name}')
+        run_adb_shell(f'shell am force-stop {self.package_name}')
     
     def uninstall_app(self):
-        resultado = os.popen(f'adb shell pm uninstall --user 0 {self.package_name}').read()
+        resultado = run_adb_shell(f'shell pm uninstall --user 0 {self.package_name}')
         if "Success" not in resultado:
-            os.system(f'adb shell pm disable-user --user 0 {self.package_name}')
+            run_adb_shell(f'shell pm disable-user --user 0 {self.package_name}')
         self.save_to_database(f"ELIMINADO: {self.package_name}")
         list_widget = self.parent().parent()
         for i in range(list_widget.count()):
@@ -155,7 +206,7 @@ class AppsList(QListWidget):
     
     def update_system_packages(self):
         try:
-            result = os.popen('adb shell pm list packages -s').read()
+            result = run_adb_shell('shell pm list packages -s')
             self.system_packages = {line.split(':')[1].strip() for line in result.split('\n') if line}
         except Exception as e:
             print(f"Error actualizando paquetes del sistema: {str(e)}")
@@ -470,7 +521,7 @@ class MarshallApp(QMainWindow):
         
         if confirm == QMessageBox.Yes:
             try:
-                os.system('adb reboot')
+                run_adb_shell('shell reboot')
                 self.update_status("Reiniciando dispositivo...", "orange")
             except Exception as e:
                 QMessageBox.critical(self, "Error", f"No se pudo reiniciar el dispositivo:\n{str(e)}")
@@ -482,7 +533,7 @@ class MarshallApp(QMainWindow):
             
         try:
             # Obtener todos los paquetes de usuario (no del sistema)
-            result = os.popen('adb shell pm list packages -3').read()
+            result = run_adb_shell('shell pm list packages -3')
             user_packages = {line.split(':')[1].strip() for line in result.split('\n') if line}
             
             # Actualizar lista de malware
@@ -539,12 +590,12 @@ class MarshallApp(QMainWindow):
         if confirm == QMessageBox.Yes:
             success_count = 0
             for package in self.found_malware:
-                resultado = os.popen(f'adb shell pm uninstall --user 0 {package}').read()
+                resultado = run_adb_shell(f'shell pm uninstall --user 0 {package}')
                 if "Success" in resultado:
                     success_count += 1
                     self.save_to_database(f"ELIMINADO: {package}")
                 else:
-                    os.system(f'adb shell pm disable-user --user 0 {package}')
+                    run_adb_shell(f'shell pm disable-user --user 0 {package}')
                     self.save_to_database(f"DESHABILITADO: {package}")
             
             # Mostrar resultados
@@ -582,7 +633,7 @@ class MarshallApp(QMainWindow):
         """Verifica periódicamente si el dispositivo sigue conectado"""
         if "Conectado:" in self.status_bar.currentMessage():
             try:
-                result = os.popen('adb devices').read()
+                result = run_adb_command(['devices'])
                 devices = [line for line in result.split('\n') 
                          if 'device' in line and not line.startswith('List of')]
                 
@@ -623,7 +674,7 @@ class MarshallApp(QMainWindow):
     def check_adb_connection(self):
         """Verifica la conexión ADB y actualiza la interfaz"""
         try:
-            result = os.popen('adb devices').read()
+            result = run_adb_command(['devices'])
             devices = [line for line in result.split('\n') 
                      if 'device' in line and not line.startswith('List of')]
             
@@ -676,8 +727,8 @@ class MarshallApp(QMainWindow):
             return self.last_device_name
             
         try:
-            model = os.popen('adb shell getprop ro.product.model').read().strip()
-            android_version = os.popen('adb shell getprop ro.build.version.release').read().strip()
+            model = run_adb_shell('shell getprop ro.product.model').strip()
+            android_version = run_adb_shell('shell getprop ro.build.version.release').strip()
             
             if not model or not android_version:
                 return "Dispositivo desconocido"
@@ -729,7 +780,7 @@ class MarshallApp(QMainWindow):
             self.apps_list.update_system_packages()
             self.apps_list.update_malware_packages()
             
-            resultado_activity = os.popen('adb shell dumpsys activity top | findstr ACTIVITY').read().strip()
+            resultado_activity = run_adb_shell('shell dumpsys activity top | findstr ACTIVITY')
             paquetes_activity = self.extraer_paquetes_activity(resultado_activity)
             
             if paquetes_activity:
