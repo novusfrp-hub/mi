@@ -1,0 +1,240 @@
+=== PAQUETES SOSPECHOSOS ===
+Creado: 2025-06-21 15:37:21
+
+2025-06-21 16:21:24 - com.staytodo.demolist
+2025-06-21 16:40:28 - ELIMINADO: com.staytodo.demolist
+2025-06-21 19:36:40 - com.zzkko
+2025-06-23 09:22:50 - spr.smart.pdfreader
+2025-06-23 09:23:23 - ELIMINADO: spr.smart.pdfreader
+2025-06-23 13:58:37 - ELIMINADO: spr.smart.pdfreader
+2025-06-23 13:58:42 - ELIMINADO: com.boostloop.wiperight.cleanx
+2025-06-23 13:58:51 - com.brushpen.craft
+2025-06-23 13:59:35 - com.breeze.clean.junk.clean
+2025-06-23 14:00:30 - com.plusgroup.ag.junk.clean
+2025-06-23 14:00:31 - com.android.settings
+2025-06-23 14:01:36 - ELIMINADO: com.plusgroup.ag.junk.clean
+2025-06-23 14:01:40 - ELIMINADO: com.brushpen.craft
+2025-06-23 14:01:43 - ELIMINADO: com.breeze.clean.junk.clean
+2025-06-23 17:42:12 - lava.car.race.adventure
+2025-06-23 17:43:06 - ELIMINADO: lava.car.race.adventure
+2025-06-25 10:44:06 - go.cleaner.junk.clean.app
+2025-06-25 10:44:07 - com.ratead.direxee
+2025-06-25 10:45:14 - ELIMINADO: com.ratead.direxee
+2025-06-25 10:45:16 - ELIMINADO: go.cleaner.junk.clean.app
+2025-06-26 15:14:57 - com.tgchfc.cameraselfiepixel
+2025-06-26 15:15:14 - ELIMINADO: com.tgchfc.cameraselfiepixel
+2025-06-30 16:53:37 - com.example.adwareapp
+2025-06-30 16:55:36 - rc.rocket.cleaner
+2025-06-30 16:55:43 - com.emoj.realmdone.emote
+2025-06-30 16:56:20 - com.stricker.semoicon.sunnyclok
+2025-06-30 16:56:38 - com.cleanerguru.cleanup
+2025-06-30 16:58:48 - ELIMINADO: com.emoj.realmdone.emote
+2025-06-30 16:58:49 - ELIMINADO: com.example.adwareapp
+2025-06-30 16:58:56 - ELIMINADO: com.plusgroup.ag.junk.clean
+2025-06-30 16:58:59 - ELIMINADO: com.cleanerguru.cleanup
+2025-06-30 16:59:07 - ELIMINADO: go.cleaner.junk.clean.app
+2025-06-30 17:01:11 - com.oneclickclean.mycleaner
+2025-06-30 17:01:23 - ELIMINADO: com.oneclickclean.mycleaner
+2025-06-30 18:50:56 - com.ahmed.spotless.clean.junk
+2025-06-30 18:53:09 - ELIMINADO: com.findmyphone.phoneecho
+2025-06-30 18:53:13 - ELIMINADO: com.boostloop.wiperight.cleanx
+2025-06-30 18:53:18 - ELIMINADO: com.ahmed.spotless.clean.junk
+2025-07-03 17:43:00 - com.testwfadjf.wallpaer.iwfdu.anima
+2025-07-03 17:46:19 - ELIMINADO: com.testwfadjf.wallpaer.iwfdu.anima
+2025-07-03 19:33:52 - com.nanoforward.wifilink
+2025-07-03 19:36:34 - ELIMINADO: com.nanoforward.wifilink
+2025-07-09 14:45:31 - taskilo.task.ilo
+2025-07-09 14:45:40 - com.dc.deep.clean
+2025-07-09 14:46:38 - ELIMINADO: taskilo.task.ilo
+2025-07-09 14:50:37 - ELIMINADO: com.dc.deep.clean
+2025-07-10 17:32:08 - com.cozyspins.happy.room
+2025-07-10 17:32:44 - ELIMINADO: com.cozyspins.happy.room
+2025-07-14 12:58:47 - com.purefone.cleanmastera
+2025-07-14 12:59:12 - com.bukharigames.whiteeagle
+2025-07-14 12:59:18 - com.natureclear.elenta.cleaner
+2025-07-14 12:59:32 - ELIMINADO: com.bukharigames.whiteeagle
+2025-07-14 12:59:36 - ELIMINADO: com.natureclear.elenta.cleaner
+2025-07-14 13:01:55 - ELIMINADO: com.purefone.cleanmastera
+2025-07-18 10:24:35 - ELIMINADO: com.natureclear.elenta.cleaner
+2025-07-18 10:25:25 - com.sassmoji.bubbledeck.emoji
+2025-07-18 10:25:55 - ELIMINADO: com.sassmoji.bubbledeck.emoji
+2025-07-18 10:26:09 - ELIMINADO: com.clean.fast.launcher
+2025-07-18 15:03:24 - com.freshen.upclean
+2025-07-18 15:03:55 - com.aisleclean.matercleantool
+2025-07-18 15:04:13 - com.restorefile.finder
+2025-07-18 15:07:05 - ELIMINADO: com.freshen.upclean
+2025-07-18 15:07:08 - ELIMINADO: com.restorefile.finder
+2025-07-18 15:07:19 - ELIMINADO: com.aisleclean.matercleantool
+2025-07-18 15:07:21 - ELIMINADO: com.natureclear.elenta.cleaner
+2025-07-19 14:01:33 - ELIMINADO: com.freshen.upclean
+2025-07-21 10:09:33 - com.pdfgo.xploremaxz
+2025-07-21 10:13:47 - ELIMINADO: com.aisleclean.matercleantool
+2025-07-21 10:13:54 - ELIMINADO: com.natureclear.elenta.cleaner
+2025-07-21 10:13:58 - ELIMINADO: com.pdfgo.xploremaxz
+2025-07-25 09:30:09 - ELIMINADO: com.aisleclean.matercleantool
+2025-07-25 09:30:44 - com.clearout.virexa.cleaner
+2025-07-25 09:30:53 - ELIMINADO: com.clearout.virexa.cleaner
+2025-07-25 09:31:26 - com.faceemoji.forge
+2025-07-25 09:33:14 - ELIMINADO: com.faceemoji.forge
+2025-08-04 14:51:05 - ELIMINADO: go.cleaner.junk.clean.app
+2025-08-04 14:52:55 - com.nexaimplecleanfxaaepro.easyfile
+2025-08-04 14:53:20 - ELIMINADO: com.nexaimplecleanfxaaepro.easyfile
+2025-08-04 14:58:34 - com.play2048.simplygame
+2025-08-04 14:58:35 - com.miui.home
+2025-08-04 16:00:39 - com.jacksoftw.webcam
+2025-08-06 17:23:19 - com.sec.android.app.launcher
+2025-08-06 17:23:23 - com.lumipro.torchtool.auv
+2025-08-06 17:23:57 - ELIMINADO: com.lumipro.torchtool.auv
+2025-08-07 09:08:47 - ELIMINADO: com.play2048.simplygame
+2025-08-18 19:10:37 - com.trimbox.auraapp
+2025-08-18 19:10:47 - ELIMINADO: com.trimbox.auraapp
+2025-08-18 19:11:22 - com.qrscanner.reader.qrcode
+2025-08-18 19:11:31 - ELIMINADO: com.qrscanner.reader.qrcode
+2025-08-18 19:12:33 - com.file.minder.datassitant
+2025-08-18 19:12:39 - com.freshdoc.disvial.app
+2025-08-18 19:12:45 - ELIMINADO: com.file.minder.datassitant
+2025-08-18 19:13:17 - ELIMINADO: com.freshdoc.disvial.app
+2025-08-18 19:15:07 - com.scapp.cl.shovel
+2025-08-18 19:15:12 - ELIMINADO: com.scapp.cl.shovel
+2025-08-20 10:39:11 - com.fasthelperk.mogine
+2025-08-20 10:41:28 - ELIMINADO: com.fasthelperk.mogine
+2025-08-20 15:13:49 - ELIMINADO: com.trimbox.auraapp
+2025-08-20 15:13:50 - ELIMINADO: com.freshdoc.disvial.app
+2025-08-20 15:13:52 - ELIMINADO: com.aisleclean.matercleantool
+2025-08-20 15:14:17 - com.rushroll.clean
+2025-08-20 15:18:43 - ELIMINADO: com.rushroll.clean
+2025-08-22 16:09:07 - ELIMINADO: com.clearout.virexa.cleaner
+2025-08-22 16:09:08 - ELIMINADO: com.rushroll.clean
+2025-08-25 12:51:27 - com.phone.clearjunk.cleaning
+2025-08-25 12:52:31 - com.dustclean.sweepdiva
+2025-08-25 12:56:49 - ELIMINADO: com.dustclean.sweepdiva
+2025-08-25 12:56:53 - ELIMINADO: com.phone.clearjunk.cleaning
+2025-08-25 12:57:00 - com.zekrun.phonealarm.defenguard
+2025-08-25 12:57:04 - ELIMINADO: com.zekrun.phonealarm.defenguard
+2025-08-30 16:11:28 - com.gogo.launcher
+2025-08-30 16:11:32 - mobeasyapp.math.calculator
+2025-08-30 16:11:49 - veggie.boom.vbb
+2025-08-30 16:15:34 - mobeasy.classic.calculator
+2025-08-30 16:15:50 - ELIMINADO: com.dc.deep.clean
+2025-08-30 16:15:55 - ELIMINADO: com.clearout.virexa.cleaner
+2025-08-30 16:15:56 - ELIMINADO: taskilo.task.ilo
+2025-08-30 16:16:04 - ELIMINADO: veggie.boom.vbb
+2025-08-30 16:16:07 - ELIMINADO: mobeasyapp.math.calculator
+2025-08-30 16:16:09 - ELIMINADO: mobeasy.classic.calculator
+2025-09-01 16:57:58 - com.yeears.waveclean
+2025-09-01 16:58:04 - com.cleanname.nameelix
+2025-09-01 16:58:48 - com.clmyuennd.clepuger
+2025-09-01 16:59:36 - ELIMINADO: com.yeears.waveclean
+2025-09-01 16:59:39 - ELIMINADO: com.cleanname.nameelix
+2025-09-01 16:59:42 - ELIMINADO: com.clmyuennd.clepuger
+2025-09-23 17:32:42 - com.wand.luster
+2025-09-23 17:32:47 - ELIMINADO: com.wand.luster
+2025-09-23 17:32:54 - com.analog.sweep.cleaner
+2025-09-23 17:32:59 - ELIMINADO: com.analog.sweep.cleaner
+2025-10-07 14:31:04 - com.ventra.dustbust.app
+2025-10-07 14:31:04 - com.junkquick.cleankit
+2025-10-07 14:37:20 - ELIMINADO: com.junkquick.cleankit
+2025-10-07 14:48:52 - ELIMINADO: com.ventra.dustbust.app
+2025-10-07 14:49:23 - com.cleanstorage.fresh.pouch
+2025-10-07 14:49:42 - ELIMINADO: com.cleanstorage.fresh.pouch
+2025-10-07 14:55:28 - com.cleanzen.junkcleaning
+2025-10-07 14:55:30 - com.aeroclearing.zerojunk
+2025-10-07 14:56:04 - ELIMINADO: com.aeroclearing.zerojunk
+2025-10-07 14:57:51 - ELIMINADO: com.cleanzen.junkcleaning
+2025-10-19 19:40:12 - com.hideipro.calculator
+2025-10-19 19:40:27 - ELIMINADO: com.hideipro.calculator
+2025-10-19 19:41:21 - tb.tappy.bounce
+2025-10-19 19:41:51 - ELIMINADO: tb.tappy.bounce
+2025-10-29 19:09:24 - com.cheastcleaner.userme
+2025-10-29 19:11:02 - ELIMINADO: com.cheastcleaner.userme
+2025-11-20 15:48:08 - timeporax.time.porax
+2025-11-20 15:49:35 - retouch.master.rmm
+2025-11-20 15:49:37 - com.anglow.mepapers
+2025-11-20 15:49:44 - ELIMINADO: com.dc.deep.clean
+2025-11-20 15:49:46 - ELIMINADO: timeporax.time.porax
+2025-11-20 15:49:49 - ELIMINADO: com.anglow.mepapers
+2025-11-20 15:49:51 - ELIMINADO: retouch.master.rmm
+2025-11-20 15:50:40 - com.fasthelper.wifiexpert
+2025-11-20 15:50:46 - ELIMINADO: com.fasthelper.wifiexpert
+2025-11-25 17:23:39 - com.android.deskclock.go
+2025-11-25 17:24:39 - ELIMINADO: com.dc.deep.clean
+2025-11-27 15:30:02 - com.diskclean.sweepnapp
+2025-11-27 15:30:03 - com.samsung.android.mtp
+2025-11-27 15:30:06 - com.cleanmix.docdatapp
+2025-11-27 15:30:39 - com.tejklo.clean.neatq
+2025-11-27 15:31:47 - ELIMINADO: com.tejklo.clean.neatq
+2025-11-27 15:31:53 - ELIMINADO: com.cleanmix.docdatapp
+2025-11-27 15:31:56 - ELIMINADO: com.diskclean.sweepnapp
+2025-11-28 15:03:51 - com.quickmathto.resolver
+2025-11-28 15:03:56 - ELIMINADO: com.quickmathto.resolver
+2025-12-04 09:48:27 - tf.tap.fame
+2025-12-04 09:48:31 - ELIMINADO: tf.tap.fame
+2025-12-05 15:19:32 - ELIMINADO: com.quickmathto.resolver
+2025-12-05 15:53:30 - easy.magnifier.em
+2025-12-05 15:53:34 - ELIMINADO: easy.magnifier.em
+2025-12-06 19:41:51 - com.mi.android.globalFileexplorer
+2025-12-07 17:54:00 - com.cleanapplica.sage
+2025-12-07 17:54:40 - my.tasks.mtt
+2025-12-07 17:55:24 - ELIMINADO: com.cleanapplica.sage
+2025-12-07 17:55:30 - ELIMINADO: my.tasks.mtt
+2025-12-12 12:17:50 - com.muse.short.drama
+2025-12-12 12:21:47 - ELIMINADO: com.muse.short.drama
+2025-12-16 19:09:14 - com.tilegames.mahjongtrip
+2025-12-16 19:09:20 - ELIMINADO: com.tilegames.mahjongtrip
+2025-12-28 19:13:34 - com.Hadiz.Pillowchase
+2025-12-28 19:13:59 - ELIMINADO: com.Hadiz.Pillowchase
+2025-12-28 19:16:34 - com.liitteree.aadephonecare
+2025-12-28 19:16:39 - ELIMINADO: com.liitteree.aadephonecare
+2025-12-28 19:16:55 - com.sweettools.spacesurge
+2025-12-28 19:17:03 - ELIMINADO: com.sweettools.spacesurge
+2025-12-28 19:17:08 - com.sweppmemo.vista
+2025-12-28 19:17:31 - ELIMINADO: com.sweppmemo.vista
+2025-12-31 18:10:10 - com.clear.scope.purify
+2025-12-31 18:10:21 - ELIMINADO: com.facebook.katana
+2025-12-31 18:10:30 - ELIMINADO: com.clear.scope.purify
+2026-01-09 18:17:04 - com.build.epic.plane.free.game.qwper.glc
+2026-01-09 18:22:14 - ELIMINADO: com.build.epic.plane.free.game.qwper.glc
+2026-01-10 18:39:33 - com.taxi.pickup.game.sim.ovweg
+2026-01-10 18:40:42 - ELIMINADO: com.taxi.pickup.game.sim.ovweg
+2026-01-19 17:53:24 - com.lets.goo.wild.free.lite
+2026-01-19 17:53:30 - ELIMINADO: com.lets.goo.wild.free.lite
+2026-02-02 15:09:24 - com.data.siftly.clearer
+2026-02-02 15:09:50 - ELIMINADO: com.data.siftly.clearer
+2026-02-03 11:13:30 - com.ChronosClean.godfa
+2026-02-03 11:14:15 - ELIMINADO: com.lotd.sitnek
+2026-02-03 11:14:17 - ELIMINADO: com.ChronosClean.godfa
+2026-02-07 18:07:07 - simple.calc.pro.scp
+2026-02-07 18:10:14 - ELIMINADO: simple.calc.pro.scp
+2026-02-20 15:34:14 - com.pure.vault.clearer
+2026-02-20 15:34:15 - com.android.vending
+2026-02-20 15:34:25 - ELIMINADO: com.pure.vault.clearer
+2026-02-20 15:34:28 - com.game.trllly.racego
+2026-02-20 15:34:43 - ELIMINADO: com.game.trllly.racego
+2026-02-20 15:34:46 - com.byte.wash.junkclean
+2026-02-20 15:34:49 - com.sh.smart.caller
+2026-02-20 15:35:01 - ELIMINADO: com.byte.wash.junkclean
+2026-02-23 11:05:51 - com.cleansweep.piocclpony
+2026-02-23 11:05:52 - com.car.police.chase.m2026.sud
+2026-03-03 12:05:28 - com.softpiggy.budgetfin
+2026-03-03 12:05:51 - ELIMINADO: com.softpiggy.budgetfin
+2026-03-07 18:16:41 - com.car.tracks.cars
+2026-03-07 18:17:02 - ELIMINADO: com.car.tracks.cars
+2026-03-08 19:03:20 - com.build.queen.mini.app.vhuic
+2026-03-08 19:04:35 - ELIMINADO: com.build.queen.mini.app.vhuic
+2026-03-10 19:01:47 - com.twisted.ropes.untangle
+2026-03-10 19:02:49 - ELIMINADO: com.twisted.ropes.untangle
+2026-03-12 10:09:37 - xxx.xxxray.bodyscanner
+2026-03-12 10:09:47 - ELIMINADO: xxx.xxxray.bodyscanner
+2026-03-24 18:44:50 - ELIMINADO: com.softpiggy.budgetfin
+2026-03-24 18:44:52 - ELIMINADO: com.quickmathto.resolver
+2026-03-27 17:53:53 - ELIMINADO: pdf.pdfreader.viewer.editor.free
+2026-04-19 18:17:10 - com.Gamnest.CandyRace
+2026-04-19 18:17:17 - ELIMINADO: com.Gamnest.CandyRace
+2026-04-19 18:17:32 - com.deviceslim.cleanfi.sdc
+2026-04-19 18:17:36 - com.vax.clean.drio
+2026-04-19 18:17:58 - ELIMINADO: com.deviceslim.cleanfi.sdc
+2026-04-19 18:17:59 - ELIMINADO: com.vax.clean.drio
+2026-04-24 17:29:40 - com.memo.emojijoy.mylistyl
+2026-04-24 17:29:50 - ELIMINADO: com.memo.emojijoy.mylistyl
+2026-05-03 11:30:00 - ELIMINADO: com.car.police.chase.m2026.sud
+2026-05-03 11:30:05 - ELIMINADO: com.deviceslim.cleanfi.sdc
